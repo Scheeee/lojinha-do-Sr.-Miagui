@@ -1,0 +1,56 @@
+body{
+    font: normal 1vw Arial;
+}
+#sessao-venda{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+#itens_section{
+    margin-left: 1%;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.imagem{
+    width: 15vw;
+    height: 10vw;
+    border-radius: 14px;
+    
+    
+}
+.produto{
+    margin-left: 1%;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 14px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16%;
+    height: 50%;
+
+}
+.preco-linha{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.descricao{
+    margin-left: 4%;
+    margin-right: 2%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
